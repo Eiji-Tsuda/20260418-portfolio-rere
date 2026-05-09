@@ -6,8 +6,7 @@
 
 body {
     margin: 0;
-    width: 100%;
-    background: linear-gradient(#CEFF99, rgb(158, 231, 157));
+    background: linear-gradient(#bbf3b0, rgb(157, 241, 155));
 }
 
 .greet {
@@ -40,6 +39,7 @@ body {
 .greet2 {
     text-align: center;
     margin-top: 83px;
+    font-family: sans-serif;
     font-size: 40px;
 }
 
@@ -57,7 +57,7 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 32px;
-    background-color: #DBB2FF;
+    background-color: #5CE141;
 }
 
 
@@ -69,7 +69,8 @@ body {
     width: 100%;
     margin: 166px auto 0;
     font-size: 32px;
-    background-color: #BFE5DF;
+    background-color: #237713;
+    color: white;
 }
 
 .content {
@@ -148,7 +149,8 @@ p {
     width: 100%;
     margin: 166px auto 0;
     font-size: 32px;
-    background-color: #BFE5DF;
+    background-color: #237713;
+    color: white;
 }
 
 .content2 {
@@ -176,6 +178,12 @@ p {
     column-gap: 40px;
 }
 
+.content2 iframe {
+    width: 100%;
+    height: 280px;
+}
+
+
 .class7 img {
     width: 100%;
     height: 280px;
@@ -189,7 +197,8 @@ p {
     width: 100%;
     margin: 166px auto 0;
     font-size: 32px;
-    background-color: #BFE5DF;
+    background-color: #237713;
+    color: white;
 }
 
 @media screen and (max-width: 900px) {
@@ -214,6 +223,7 @@ p {
     .greet2 {
         text-align: center;
         margin-top: 83px;
+        font-family: sans-serif;
         font-size: 30px;
     }
 
@@ -232,7 +242,7 @@ p {
         padding: 5px 10px;
         border-radius: 10px;
         font-size: 20px;
-        background-color: #DBB2FF;
+        background-color: #5CE141;
     }
 
     .border1 {
@@ -240,10 +250,11 @@ p {
         border-top: 3px solid;
         border-bottom: 3px solid;
         padding: 13px;
-        width: 90%;
-        margin: 166px auto 0;
+        width: 100%;
+        margin: 83px auto 0;
         font-size: 20px;
-        background-color: #BFE5DF;
+        background-color: #237713;
+        color:white;
     }
 
     .work-title {
@@ -256,14 +267,13 @@ p {
 
     .content {
         text-align: center;
+        width: 100%;
         padding: 0 8px;
     }
 
     .class2 {
-        display: flex;
-        justify-content: center;
+        display: block;
         margin: 5% 3% 0;
-        column-gap: 40px;
     }
 
     .class2 img {
@@ -273,37 +283,35 @@ p {
     }
 
     .class3 {
-        display: flex;
-        justify-content: center;
-        margin: 83px 20px 0;
+        display: block;
+        margin: 5% 3% 0;
     }
 
     .class3 img {
-        width: 110px;
-        height: 70px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
     }
 
     .class4 {
-        display: flex;
-        margin: 5% 0% 0;
+        display: block;
+        margin: 5% 3% 0;
     }
 
     .class4 img {
-        width: 110px;
-        height: 70px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
     }
 
     .class5 {
-        display: flex;
-        justify-content: center;
-        margin: 83px 20px 0;
+        display: block;
+        margin: 5% 3% 0;
     }
 
     .class5 img {
-        width: 110px;
-        height: 70px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
     }
 
@@ -312,43 +320,43 @@ p {
         border-top: 3px solid;
         border-bottom: 3px solid;
         padding: 13px;
-        width: 70%;
-        margin: 166px auto 0;
+        width: 100%;
+        margin: 83px auto 0;
         font-size: 20px;
-        background-color: #BFE5DF;
+        background-color: #237713;
+        color: white;
     }
 
     .content2 {
         text-align: center;
+        width: 100%;
         padding: 0 8px;
     }
 
     .content2 iframe {
-        width: 110px;
-        height: 70px;
+        width: 100%;
+        height: auto;
     }
 
     .class6 {
-        display: flex;
-        justify-content: center;
-        margin: 83px 20px 0;
+        display: block;
+        margin: 5% 3% 0;
     }
 
     .class6 img {
-        width: 110px;
-        height: 70px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
     }
 
     .class7 {
-        display: flex;
-        justify-content: center;
-        margin: 83px 20px 0;
+        display: block;
+        margin: 5% 3% 0;
     }
 
     .class7 img {
-        width: 110px;
-        height: 70px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
     }
 
@@ -356,9 +364,10 @@ p {
         text-align: center;
         border-top: 3px solid;
         padding: 13px;
-        width: 90%;
-        margin: 166px auto 0;
+        width: 100%;
+        margin: 83px auto 0;
         font-size: 20px;
-        background-color: #BFE5DF;
+        background-color: #237713;
+        color: white;
     }
 }
