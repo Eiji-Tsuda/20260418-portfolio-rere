@@ -220,7 +220,7 @@ p {
 
     .greet2 {
         text-align: center;
-        margin-top: 83px;
+        margin-top: 5%;
         font-family: sans-serif;
         font-size: 30px;
     }
@@ -250,23 +250,26 @@ p {
         padding: 9px;
         width: 100%;
         margin: 83px auto 0;
-        font-size: 20px;
+        font-size: 24px;
         background-color: #237713;
         color:white;
     }
 
     .work-title {
-        font-size: 18px;
+        font-size: 20px;
+        margin: 0.5em 0;
     }
 
     p {
         font-size: 16px;
+        margin: 0.5em 0;
     }
 
     .content {
         text-align: center;
         width: 100%;
         padding: 0 8px;
+        margin-bottom: 64px;
     }
 
     .class2 {
@@ -320,7 +323,7 @@ p {
         padding: 9px;
         width: 100%;
         margin: 83px auto 0;
-        font-size: 20px;
+        font-size: 24px;
         background-color: #237713;
         color: white;
     }
@@ -329,6 +332,7 @@ p {
         text-align: center;
         width: 100%;
         padding: 0 8px;
+        margin-bottom: 64px;
     }
 
     .content2 iframe {
@@ -364,7 +368,7 @@ p {
         padding: 9px;
         width: 100%;
         margin: 83px auto 0;
-        font-size: 20px;
+        font-size: 24px;
         background-color: #237713;
         color: white;
     }
